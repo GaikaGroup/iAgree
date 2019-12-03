@@ -1,0 +1,46 @@
+PODS:
+  - DeclarativeTVC (1.0.8):
+    - DifferenceKit
+  - DifferenceKit (1.1.3):
+    - DifferenceKit/Core (= 1.1.3)
+    - DifferenceKit/UIKitExtension (= 1.1.3)
+  - DifferenceKit/Core (1.1.3)
+  - DifferenceKit/UIKitExtension (1.1.3):
+    - DifferenceKit/Core
+  - iAgreeiOS (0.1.6)
+  - RedSwift (1.0.5)
+  - ReduxVM (1.0.5):
+    - DeclarativeTVC
+    - RedSwift
+
+DEPENDENCIES:
+  - iAgreeiOS
+  - ReduxVM (from `https://github.com/kocherovets/ReduxVM.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DeclarativeTVC
+    - DifferenceKit
+    - iAgreeiOS
+    - RedSwift
+
+EXTERNAL SOURCES:
+  ReduxVM:
+    :branch: master
+    :git: https://github.com/kocherovets/ReduxVM.git
+
+CHECKOUT OPTIONS:
+  ReduxVM:
+    :commit: d88bf58de3b29f9289036985ff71e051c75c7f33
+    :git: https://github.com/kocherovets/ReduxVM.git
+
+SPEC CHECKSUMS:
+  DeclarativeTVC: bc4eed2bdb18149cc599fbbb75f615504b96ece4
+  DifferenceKit: 5018791b6c1fc839921a3c171a0a539ace6ea60c
+  iAgreeiOS: f685594ded020671d0117810a0f70b07e1f3cd78
+  RedSwift: aa9bc5c23c38c752d01f92a33eb3d28c3bfff3cd
+  ReduxVM: 58fe9057c10b6737f86a9d66cbba4feae6038b9c
+
+PODFILE CHECKSUM: 60e6b8fb1d55e11365ae69af1b0721afa38658a8
+
+COCOAPODS: 1.8.4

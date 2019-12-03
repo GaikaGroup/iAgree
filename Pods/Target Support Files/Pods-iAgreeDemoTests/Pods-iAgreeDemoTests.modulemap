@@ -1,0 +1,6 @@
+framework module Pods_iAgreeDemoTests {
+  umbrella header "Pods-iAgreeDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

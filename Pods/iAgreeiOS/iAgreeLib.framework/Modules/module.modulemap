@@ -1,0 +1,11 @@
+framework module iAgreeLib {
+  umbrella header "iAgreeLib.h"
+
+  export *
+  module * { export * }
+}
+
+module iAgreeLib.Swift {
+    header "iAgreeLib-Swift.h"
+    requires objc
+}
